@@ -1,0 +1,24 @@
+﻿Build started 29/04/2014 01:02:53.
+     1>Project "C:\Users\Lee\Dropbox\DirectX Programming\Tower\Tower\Tower.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lee\Dropbox\DirectX Programming\Tower\Debug\Tower.exe" /INCREMENTAL /NOLOGO d3d9.lib d3dx9.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Lee\Dropbox\DirectX Programming\Tower\Debug\Tower.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Lee\Dropbox\DirectX Programming\Tower\Debug\Tower.lib" /MACHINE:X86 Debug\D3DDeviceManager.obj
+         Debug\Entity.obj
+         Debug\EntityManager.obj
+         Debug\Game.obj
+         Debug\InputHandler.obj
+         Debug\Keyboard.obj
+         Debug\main.obj
+         Debug\Physics.obj
+         Debug\RandomNumber.obj
+         Debug\Sprite.obj
+         Debug\Surface.obj
+         Debug\Timer.obj
+         Tower.vcxproj -> C:\Users\Lee\Dropbox\DirectX Programming\Tower\Debug\Tower.exe
+     1>Done Building Project "C:\Users\Lee\Dropbox\DirectX Programming\Tower\Tower\Tower.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.53
