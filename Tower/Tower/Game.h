@@ -6,17 +6,14 @@
 #include "Keyboard.h"
 #include "Surface.h"
 #include "Timer.h"
+#include "ScreenManager.h"
+#include "ScreenMenu.h"
 
 class Game{
 
 private:
 
-	Sprite* slimey;
-	RECT sourceRect;
-
-	D3DXVECTOR2 position;
-
-	Timer* timer;
+	ScreenManager* m_pScreenManager;
 
 public:
 

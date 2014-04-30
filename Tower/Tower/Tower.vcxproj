@@ -11,17 +11,22 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Button.cpp" />
     <ClCompile Include="D3DDeviceManager.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="InputHandler.cpp" />
     <ClCompile Include="Keyboard.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="RandomNumber.cpp" />
+    <ClCompile Include="Screen.cpp" />
+    <ClCompile Include="ScreenManager.cpp" />
+    <ClCompile Include="ScreenMenu.cpp" />
     <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="Surface.cpp" />
     <ClCompile Include="Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Button.h" />
     <ClInclude Include="D3DDeviceManager.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameConstants.h" />
@@ -30,6 +35,7 @@
     <ClInclude Include="RandomNumber.h" />
     <ClInclude Include="Screen.h" />
     <ClInclude Include="ScreenManager.h" />
+    <ClInclude Include="ScreenMenu.h" />
     <ClInclude Include="Sprite.h" />
     <ClInclude Include="Surface.h" />
     <ClInclude Include="Timer.h" />

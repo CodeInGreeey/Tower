@@ -23,7 +23,8 @@ Game::~Game(){
 */
 bool Game::Initialise(){
 
-
+	m_pScreenManager = ScreenManager::GetInstance();
+	m_pScreenManager->AddScreen(new ScreenMenu("Images\\GUI\\UI\\Screens\\menuScreen.png"));
 
 	return true;
 
@@ -34,7 +35,7 @@ bool Game::Initialise(){
 */
 void Game::Tick(){
 
-
+	m_pScreenManager->Tick();
 	
 }
 
@@ -43,7 +44,7 @@ void Game::Tick(){
 */
 void Game::Render(){
 
-	
+	m_pScreenManager->Render();
 	
 }
 

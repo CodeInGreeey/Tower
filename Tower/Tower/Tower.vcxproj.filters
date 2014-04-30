@@ -28,6 +28,27 @@
     <Filter Include="Header Files\Game\Screens">
       <UniqueIdentifier>{1ce47d2d-a9aa-4049-84ac-dbebbdc99871}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Game\Screens">
+      <UniqueIdentifier>{fabd0360-3d6f-412d-945d-78ac8a9da493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Screens\UI Screens">
+      <UniqueIdentifier>{9ccea2bc-5927-4b05-8a75-3dafae03f118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Screens\UI Screens">
+      <UniqueIdentifier>{c2c57e92-6871-4253-a56f-fc3c9ecc0b4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Managers">
+      <UniqueIdentifier>{696f62c5-399b-46d5-ae82-25cb02763e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Managers">
+      <UniqueIdentifier>{12ed5b0f-c35c-4a23-aa34-1a6f756cf69b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Screens\UI Screens\UI Buttons">
+      <UniqueIdentifier>{905214ba-8b80-4483-90ea-602b6bcb3941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Screens\UI Screens\UI Buttons">
+      <UniqueIdentifier>{9abd3477-8606-40fe-aaa7-c309b12a1ef6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp">
@@ -56,6 +77,18 @@
     </ClCompile>
     <ClCompile Include="Timer.cpp">
       <Filter>Source Files\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Source Files\Game\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenMenu.cpp">
+      <Filter>Source Files\Game\Screens\UI Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Source Files\Game\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\Game\Screens\UI Screens\UI Buttons</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -86,11 +119,17 @@
     <ClInclude Include="Game.h">
       <Filter>Header Files\Game</Filter>
     </ClInclude>
-    <ClInclude Include="ScreenManager.h">
-      <Filter>Header Files\Game\Screens</Filter>
-    </ClInclude>
     <ClInclude Include="Screen.h">
       <Filter>Header Files\Game\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenMenu.h">
+      <Filter>Header Files\Game\Screens\UI Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Header Files\Game\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Game\Screens\UI Screens\UI Buttons</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -2,6 +2,18 @@
 #define _SCREENMANAGER_H
 
 #include "GameConstants.h"
+#include "Screen.h"
+
+/*
+	=============================================
+	An enum to store identifiers for the screens.
+	=============================================
+*/
+enum Screens{
+
+	Menu = 0,
+
+};
 
 /*
 	=======================================================================================
@@ -12,26 +24,31 @@ class ScreenManager{
 
 private:
 
-	//An instance of this class. Used to form a singleton class.
-	static	ScreenManager			*m_pInstance;  
+	static	ScreenManager			*m_pInstance;												//An instance of this class. Used to form a singleton class.
+
+	vector<Screen*>					 m_pvScreens;												//A vector list of screens.
+	vector<Screen*>::iterator		 m_pvScreensIter;											//An iterator for the vector list of screens.
+
+	Screens							 m_iCurrentScreen;											//An integer to represent the index of the current screen within the vector list.
 	
 
 public:
 
-	//Default constructor.
-	ScreenManager();	
 
-	//Default destructor.
-	~ScreenManager();								
+	ScreenManager();																			//Default constructor.
+	~ScreenManager();																			//Default destructor.						
 
-	 //A method used to return the instance of this class.
-	static ScreenManager			*GetInstance();
+	void							 Initialise();												//Initialise the screen manager.
 	
-	//Will be used to update all of the screens.
-	void							Tick();		   
+	static ScreenManager*			 GetInstance();											    //A method used to return the instance of this class.
 
-	//Will be used to render all of the screens.
-	void							Render();	   
+	
+	void							 AddScreen(Screen* newScreen);								//Used to add a screen to the screens list.
+	void							 ChangeScreen(Screens screenIdentifier);					//Changes the screen
+	void							 Tick();													//Will be used to update all of the screens.	
+	void							 Render();													//Will be used to render all of the screens.
+
+	Screens							 GetCurrentScreen();										//Returns the identifier of the current screen.
 		
 
 };

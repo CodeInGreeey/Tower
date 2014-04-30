@@ -21,6 +21,7 @@ public:
 	bool InitSurface(LPCSTR path);
 
 	void DrawSurface();
+	void Release();
 
 };
 #endif

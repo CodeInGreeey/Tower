@@ -12,6 +12,12 @@ Surface::~Surface(){
 
 }
 
+void Surface::Release(){
+
+	surface->Release();
+
+}
+
 bool Surface::Initialise(){
 
 	m_pDM = D3DDeviceManager::GetInstance();

@@ -18,10 +18,13 @@ protected:
 public:
 
 	//Default constructor.
-	Screen();
+	Screen(LPCSTR path);
 
 	//Default destructor.
 	~Screen();
+
+	//Used to initialise the screen.
+	virtual void			     Initialise(LPCSTR path);
 
 	//Used to update the screen.
 	virtual void				 Tick() = 0;
