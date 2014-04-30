@@ -23,8 +23,7 @@ Game::~Game(){
 */
 bool Game::Initialise(){
 
-	slimey = new Sprite();
-	slimey->InitSprite("Images\\Entities\\slimey.png");
+
 
 	return true;
 
@@ -35,6 +34,7 @@ bool Game::Initialise(){
 */
 void Game::Tick(){
 
+
 	
 }
 
@@ -43,6 +43,7 @@ void Game::Tick(){
 */
 void Game::Render(){
 
+	
 	
 }
 

@@ -5,6 +5,7 @@
 #include "Sprite.h"
 #include "Keyboard.h"
 #include "Surface.h"
+#include "Timer.h"
 
 class Game{
 
@@ -12,6 +13,10 @@ private:
 
 	Sprite* slimey;
 	RECT sourceRect;
+
+	D3DXVECTOR2 position;
+
+	Timer* timer;
 
 public:
 

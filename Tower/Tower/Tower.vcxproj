@@ -12,13 +12,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="D3DDeviceManager.cpp" />
-    <ClCompile Include="Entity.cpp" />
-    <ClCompile Include="EntityManager.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="InputHandler.cpp" />
     <ClCompile Include="Keyboard.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Physics.cpp" />
     <ClCompile Include="RandomNumber.cpp" />
     <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="Surface.cpp" />
@@ -26,14 +23,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D3DDeviceManager.h" />
-    <ClInclude Include="Entity.h" />
-    <ClInclude Include="EntityManager.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameConstants.h" />
     <ClInclude Include="InputHandler.h" />
     <ClInclude Include="Keyboard.h" />
-    <ClInclude Include="Physics.h" />
     <ClInclude Include="RandomNumber.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="ScreenManager.h" />
     <ClInclude Include="Sprite.h" />
     <ClInclude Include="Surface.h" />
     <ClInclude Include="Timer.h" />
